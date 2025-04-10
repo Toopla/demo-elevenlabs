@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #252525;
+}
+
+.container {
+    background-color: #252525;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(100vw - 40px);
+	height: calc(100vh - 40px);
+    padding: 20px;
+}
+
+.iPhone-SE {
+    position: relative;
+    width: 375px;
+    height: 667px;
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    border: 2px solid #3c3c3c;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.iPhone-SE-header {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 35px;
+    background-color: #1e1e1e;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.iPhone-SE-sound {
+    width: 35%;
+    height: 8px;
+    background-color: #3c3c3c;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.iPhone-SE-camera {
+    width: 8px;
+    height: 8px;
+    background-color: #3c3c3c;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.iPhone-SE-screen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3c3c3c;
+    border-radius: 40px;
+    padding: 40px 10px 10px 10px;
+}
